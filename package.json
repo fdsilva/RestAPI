@@ -1,0 +1,30 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "Rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdsilva/RestAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "NodeJs"
+  ],
+  "author": "Francisco Ioneiton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdsilva/RestAPI/issues"
+  },
+  "homepage": "https://github.com/fdsilva/RestAPI#readme",
+  "dependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "consign": "^0.1.2",
+    "express": "^4.13.4"
+  }
+}
