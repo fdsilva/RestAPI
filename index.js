@@ -5,13 +5,15 @@ const PORT = 3000;
 const app = express();
 
 
-app.set("json spaces", 4);
+//app.set("json spaces", 4);
 
 consign()
-  .include("models")
+  .include("libs/config.js")
+  .then("db.js")
+  //.then("models") ver 1
   .then("libs/middlewares.js")
   .then("routes")
   .then("libs/boot.js")
   .into(app);
 
-app.listen(PORT, () => console.log(`NTask API - porta ${PORT}`));
+//app.listen(PORT, () => console.log(`NTask API - porta ${PORT}`));
