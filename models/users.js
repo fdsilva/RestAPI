@@ -1,3 +1,4 @@
+import bcrypt from "bcrypt";
 module.exports = ( sequelize, DataType) => {
 	const Users = sequelize.define("Users",{
 		id: {
